@@ -1,0 +1,94 @@
+html, body {height: 100%;}
+
+#wrap {
+	min-height: 100%;
+}
+
+#main {
+	overflow: auto;
+	position: relative;
+	padding-bottom: 100px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#footer {
+	position: relative;
+	height: 100px;
+	clear: both;
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: -100px;
+}
+
+#logo {
+	width: 930px;
+	display: block;
+	margin: 0 auto
+}
+
+#contacts {
+	display: block;
+	width: 610px;
+	margin: 0 auto;
+}
+
+#moscow, #bolgary {
+	display: inline-block;
+	width: 250px;
+}
+
+#phones {
+	font-family: AvantGarde;
+	color: #fff;
+	font-size: 18px;
+	text-shadow: 2px 2px 3px #000;
+	text-align: right;
+	margin-top: -100px;
+}
+
+#phones div {
+	padding: 0 24px;
+}
+
+#phones span {
+	display: block;
+	text-align: right;
+	color: #a00002;
+	font-size: 12px;
+	text-shadow: none
+}
+
+#phones #bolgary, #bolgary span {
+	text-align: left;
+}
+
+#separator {
+	display: inline-block;
+	height: 33px;
+	width: 2px;
+	padding: 0!important;
+	margin: 0!important;
+	background: url('/i/phone_separator.png') center bottom no-repeat
+}
+
+#links {
+	display: block;
+	width: 243px;
+	margin: 0 auto;
+}
+
+#links a {
+	font-family: AvantGarde;
+	font-size: 12px;
+	display: inline-block;
+	color: #ffd830;
+	text-decoration: none;
+	margin: 0 26px;
+}
+
+#links a:hover {
+	border-bottom: solid 2px #a1741a
+}
+
+#copyrights {float: right; margin-right: 70px}
