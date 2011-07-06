@@ -26,10 +26,14 @@ body:before {
 /* end sticky footer */
 
 #logo {
+	/*background: url('/i/inprogress.png') center center no-repeat;*/
 	width: 930px;
+	height: 742px;
 	display: block;
-	margin: 0 auto
+	margin: 0 auto;
+	z-index: 10;
 }
+
 
 #contacts {
 	display: block;
@@ -40,9 +44,14 @@ body:before {
 #moscow, #bolgary {
 	display: inline-block;
 	width: 250px;
+	zoom: 1;
+	*display:inline;
 }
 
 #phones {
+	width: 100%;
+	z-index: 20;
+	position: relative;
 	font-family: AvantGarde;
 	color: #fff;
 	font-size: 18px;
@@ -73,19 +82,25 @@ body:before {
 	width: 2px;
 	padding: 0!important;
 	margin: 0!important;
-	background: url('/i/phone_separator.png') center bottom no-repeat
+	background: url('/i/phone_separator.png') center bottom no-repeat;
+	zoom: 1;
+	*display:inline;
 }
 
 #links {
 	display: block;
 	width: 243px;
 	margin: 0 auto;
+	position: relative;
+	z-index: 20
 }
 
 #links a {
 	font-family: AvantGarde;
 	font-size: 12px;
 	display: inline-block;
+	zoom: 1;
+	*display:inline;
 	color: #ffd830;
 	text-decoration: none;
 	margin: 0 26px;
