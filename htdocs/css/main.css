@@ -89,13 +89,15 @@ body:before {
 
 #links {
 	display: block;
-	width: 243px;
+	width: 218px;
 	margin: 0 auto;
 	position: relative;
-	z-index: 20
+	z-index: 20;
+	text-align: right;
 }
 
 #links a {
+	width: 78px;
 	font-family: AvantGarde;
 	font-size: 12px;
 	display: inline-block;
@@ -103,7 +105,13 @@ body:before {
 	*display:inline;
 	color: #ffd830;
 	text-decoration: none;
-	margin: 0 26px;
+}
+
+#links a:first-child {
+	margin-right: 28px;
+}
+#links a:last-child {
+	margin-left: 26px;
 }
 
 #links a:hover {
